@@ -1,5 +1,5 @@
-const api_id = '1564163';
-const api_hash = 'a456a0b4f57103cd8cb9e91b3ba3b5a1';
+const api_id = API_ID;
+const api_hash = API_HASH;
 
 const { MTProto } = require('@mtproto/core');
 
