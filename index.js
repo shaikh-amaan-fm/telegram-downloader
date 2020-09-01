@@ -236,13 +236,4 @@ exports.download = async (link,file_destination)=>{
   }
 };
 
-(async()=>{
 
-  try {
-    await exports.download('https://t.me/marioworlds/1860',"./");
-  }
-  catch(e){
-    console.log("Invalid Link ",e);
-  }
-
-})();
